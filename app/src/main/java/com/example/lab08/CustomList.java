@@ -17,6 +17,12 @@ public class CustomList {
         return cities.contains(city);
     }
 
+    public void deleteCity(City city){
+        if(hasCity(city)){
+            cities.remove(city);
+        }
+    }
+
 
 
     // Will be implemented later using TDD (leave blank for now)
