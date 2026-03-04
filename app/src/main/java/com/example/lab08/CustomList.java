@@ -24,10 +24,10 @@ public class CustomList {
         }
     }
 
-//    public int countCity(){
-//        return cities.size();
-//    }
-//
+    public int countCity(){
+        return cities.size();
+    }
+
 
 
     // Will be implemented later using TDD (leave blank for now)
