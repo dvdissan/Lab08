@@ -1,6 +1,7 @@
 package com.example.lab08;
 
 public class City {
+    //mega bruh
     private String city;
     private String province;
 
