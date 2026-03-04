@@ -13,16 +13,21 @@ public class CustomList {
     public void addCity(City city) {
         cities.add(city);
     }
-    public boolean hasCity(City city) {
-        return cities.contains(city);
-    }
+//    public boolean hasCity(City city) {
+//        return cities.contains(city);
+//    }
 
-    public void deleteCity(City city){
-        if(hasCity(city)){
-            cities.remove(city);
-        }
-    }
-
+//
+//    public void deleteCity(City city){
+//        if(hasCity(city)){
+//            cities.remove(city);
+//        }
+//    }
+//
+//    public int countCity(){
+//        return cities.size();
+//    }
+//
 
 
     // Will be implemented later using TDD (leave blank for now)
